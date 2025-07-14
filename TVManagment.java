@@ -475,12 +475,12 @@ public class TVManagment extends JFrame {
 
     private int DisplayDocumentaryChannels() {
 
-        DocumentaryChannel m1 = new DocumentaryChannel("NAT GEO1","SP1","Heavy1",25001);
-        DocumentaryChannel m2 = new DocumentaryChannel("NAT GEO2","SP2","Heavy2",25002);
-        DocumentaryChannel m3 = new DocumentaryChannel("NAT GEO3","SP3","Heavy3",25003);
-        DocumentaryChannel m4 = new DocumentaryChannel("NAT GEO4","SP4","Heavy4",25004);
-        DocumentaryChannel m5 = new DocumentaryChannel("NAT GEO5","SP5","Heavy5",25005);
-        DocumentaryChannel m6 = new DocumentaryChannel("NAT GEO6","SP6","Heavy6",25006);
+        DocumentaryChannel m1 = new DocumentaryChannel("NAT GEO","SP1","Documentary",1200);
+        DocumentaryChannel m2 = new DocumentaryChannel("NAT GEO Wild","SP2","Wildlife",1000);
+        DocumentaryChannel m3 = new DocumentaryChannel("History TV 18","SP3","Documentary",900);
+        DocumentaryChannel m4 = new DocumentaryChannel("Discovery","SP4","Documentary",2500);
+        DocumentaryChannel m5 = new DocumentaryChannel("BBC Earth","SP5","Wildlife",2000);
+        DocumentaryChannel m6 = new DocumentaryChannel("Animal Planet","SP6","Wilslife",1600);
 
         ArrayList<DocumentaryChannel> documentaryChannels = new ArrayList<>();
         documentaryChannels.add(m1);
@@ -507,12 +507,12 @@ public class TVManagment extends JFrame {
     }
 
     private int DisplayMoviesChannels() {
-        MovieChannel m6 = new MovieChannel("NAT GEO6","SP6","Heavy6",25006);
-        MovieChannel m1 = new MovieChannel("NAT GEO1","SP1","Heavy1",25001);
-        MovieChannel m2 = new MovieChannel("NAT GEO2","SP2","Heavy2",25002);
-        MovieChannel m3 = new MovieChannel("NAT GEO3","SP3","Heavy3",25003);
-        MovieChannel m4 = new MovieChannel("NAT GEO4","SP4","Heavy4",25004);
-        MovieChannel m5 = new MovieChannel("NAT GEO5","SP5","Heavy5",25005);
+        MovieChannel m6 = new MovieChannel("Zee Cinema","SP6","Movie",2500);
+        MovieChannel m1 = new MovieChannel("SET MAX","SP1","Movie",2500);
+        MovieChannel m2 = new MovieChannel("STAR GOLD","SP2","Movie",2500);
+        MovieChannel m3 = new MovieChannel("& Pictures","SP3","Movie",2500);
+        MovieChannel m4 = new MovieChannel("ZEE GOLD","SP4","Movie",2500);
+        MovieChannel m5 = new MovieChannel("SONY PIX","SP5","Movie",2500);
 
         ArrayList<MovieChannel> movieList = new ArrayList<>();
         movieList.add(m1);
@@ -540,12 +540,12 @@ public class TVManagment extends JFrame {
     }
 
     private int DisplaySportsChannels() {
-        SportChannel m1 = new SportChannel("NAT GEO1","SP1","Heavy1",25001);
-        SportChannel m2 = new SportChannel("NAT GEO2","SP2","Heavy2",25002);
-        SportChannel m3 = new SportChannel("NAT GEO3","SP3","Heavy3",25003);
-        SportChannel m4 = new SportChannel("NAT GEO4","SP4","Heavy4",25004);
-        SportChannel m5 = new SportChannel("NAT GEO5","SP5","Heavy5",25005);
-        SportChannel m6 = new SportChannel("NAT GEO6","SP6","Heavy6",25006);
+        SportChannel m1 = new SportChannel("Start Sports","SP1","Sports",2500);
+        SportChannel m2 = new SportChannel("SONY Sports","SP2","Sports",2500);
+        SportChannel m3 = new SportChannel("Sports 18","SP3","Sports",2500);
+        SportChannel m4 = new SportChannel("DD Sports","SP4","Sports",2500);
+        SportChannel m5 = new SportChannel("SONY Ten","SP5","Sports",2500);
+        SportChannel m6 = new SportChannel("SONY ESPN","SP6","Sports",2500);
 
         ArrayList<SportChannel> sportList = new ArrayList<>();
         sportList.add(m1);
